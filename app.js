@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 app.get("/", (request, response) => {
-  response.status(200).json("hi welcome to alexa");
+  response.status(200).json({"message":"hi welcome to alexa"});
 });
 
 
