@@ -1,0 +1,26 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alison-abe/sampleNode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alison-abe/sampleNode/issues"
+  },
+  "homepage": "https://github.com/Alison-abe/sampleNode#readme",
+  "devDependencies": {}
+}
